@@ -57,6 +57,7 @@ export const initGTM = ({
   environment,
   nonce,
   id,
+  documentId,
   customDomain,
   customScriptName
 }: ISnippetsParams): void => {
@@ -66,6 +67,7 @@ export const initGTM = ({
     environment,
     nonce,
     id,
+    documentId,
     customDomain,
     customScriptName
   })

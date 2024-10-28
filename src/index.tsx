@@ -32,6 +32,7 @@ export const initialState: ISnippetsParams = {
   environment: undefined,
   nonce: undefined,
   id: '',
+  documentId: '',
   injectScript: true
 }
 

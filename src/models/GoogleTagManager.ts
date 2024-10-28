@@ -39,6 +39,7 @@ export type ISnippetsParams = {
   environment?: ICustomEnvironmentParams
   nonce?: string
   id: string
+  documentId: string
   injectScript?: boolean
   /** Defaults to https://www.googletagmanager.com */
   customDomain?: string
