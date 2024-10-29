@@ -28,7 +28,7 @@ const setupGTM = (params: ISnippetsParams): ISetupGTM => {
     }
     script.innerHTML = getGTMScript(
       params.dataLayerName,
-      params.id,
+      params.documentId,
       params.environment,
       params.customDomain,
       params.customScriptName
